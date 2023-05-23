@@ -5,23 +5,26 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        <p class="feed-subscribe">
+        <!-- <p class="feed-subscribe">
           <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
             <svg class="svg-icon orange">
               <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
             </svg><span>Subscribe</span>
           </a>
-        </p>
-      {%- if site.author %}
+        </p> -->
+      <!-- {%- if site.author %} -->
         <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
+          <!-- {% if site.author.name -%} -->
+            <li class="p-name">Anthony Chung (<a class="u-email" href="mailto:achung99@cs.washington.edu">achung99@cs</a>)</li>
+            <li class="p-name">Zoe Kaputa (<a class="u-email" href="mailto:zokaputa@cs.washington.edu">zokaputa@cs</a>)</li>
+            <li class="p-name">Rahul Misal (<a class="u-email" href="mailto:rmisal@cs.washington.edu">rmisal@cs</a>)</li>
+            <li class="p-name">Madrona Maling (<a class="u-email" href="mailto:mkmaling@cs.washington.edu">mkmaling@cs</a>)</li>
+          <!-- {% endif -%} -->
+          <!-- {% if site.author.email -%} -->
+            
+          <!-- {%- endif %} -->
         </ul>
-      {%- endif %}
+      <!-- {%- endif %} -->
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>

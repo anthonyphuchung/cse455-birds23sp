@@ -1,6 +1,6 @@
-title: Your awesome title
+title: CSE 455 Kaggle Competition
 author:
-  name: GitHub User
+  name: Anthony Chung
   email: your-email@domain.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
@@ -54,3 +54,8 @@ minima:
 # Set to `true` to show excerpts on the homepage.
 #
 # show_excerpts: false
+
+collections:
+  posts:
+    output: true
+    permalink: /:title
