@@ -3,11 +3,10 @@ layout: post
 subtitle: Discussion, Problems Encountered, Next Steps
 ---
 
-Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.
+Through our experience participating in the Kaggle competition, one of the early problems we encountered was performing hyperparameter tuning during the training process. The process of tweaking learning rate and decay values proved challenging and time consuming as the model took a long time to run. We attempted to resolve this by running the training process with only a few epochs, like 2, and with less training data. When we saw results which we thought were promising, we would revert back to the original number of epochs (5 and 10) and the entire training data but we found that the shortcut we made was not representative of the full training data. Thus, we came to realize that seeing promising results found in the shortcut did not always translate to promising results in the entire dataset.
 
-{% comment %}
-Might you have an include in your theme? Why not try it here!
-{% include my-themes-great-include.html %}
-{% endcomment %}
+Moving forward in this project, we would continue to tweak the hyperparameters and try more neural network architectures. There are several more architectures that we were interested in exploring, such as VGG, however we didn’t have the time to try more. 
 
-No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.
+We wouldn't consider our approach as differing 
+
+![bird-meme](bird-meme.jpg)
