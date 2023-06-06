@@ -7,6 +7,6 @@ Through our experience participating in the Kaggle competition, one of the early
 
 Moving forward in this project, we would continue to tweak the hyperparameters and try more neural network architectures. There are several more architectures that we were interested in exploring, such as VGG, however we didn’t have the time to try more. 
 
-We wouldn't consider our approach as differing 
+Our approach differs from others because we looked at different convolutional neural networks and investigated the performance of different networks. An intermediate step we took was exploring the effect of differing epoch times as we tested the neural networks. In the end, this didn’t end up affecting the accuracy of the model positively, but we feel like it was a relevant and important aspect of our learning experience.
 
 ![bird-meme](bird-meme.jpg)
